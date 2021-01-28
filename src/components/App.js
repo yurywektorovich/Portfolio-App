@@ -15,6 +15,7 @@ import Brightness7Icon from "@material-ui/icons/Brightness7";
 import { Home } from "./Home";
 import { Projects } from "./Projects";
 import { About } from "./About";
+import { Contact } from "./Contact";
 
 export const light = {
 	overrides: {
@@ -83,6 +84,7 @@ const App = () => {
 						<Route exact path="/" component={Home} />
 						<Route path="/projects" component={Projects} />
 						<Route path="/about" component={About} />
+						<Route path="/contact" component={Contact} />
 					</Switch>
 				</Container>
 			</ThemeProvider>

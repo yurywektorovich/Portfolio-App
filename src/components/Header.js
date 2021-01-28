@@ -15,6 +15,9 @@ export const Header = () => {
 			<Link style={{ textDecoration: "none" }} to={"/about"}>
 				<Button size="large">About</Button>
 			</Link>
+			<Link style={{ textDecoration: "none" }} to={"/contact"}>
+				<Button size="large">Contact</Button>
+			</Link>
 		</Box>
 	);
 };
