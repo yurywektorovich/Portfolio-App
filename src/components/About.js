@@ -30,6 +30,11 @@ export const About = () => {
 					</Box>
 				</Button>
 				<Button size="large">
+					<Box color="#316192" fontSize={18} fontWeight="fontWeightBold">
+						PostgreSQL
+					</Box>
+				</Button>
+				<Button size="large">
 					<Box color="#49ae3e" fontSize={18} fontWeight="fontWeightBold">
 						MongoDB
 					</Box>
@@ -74,7 +79,7 @@ export const About = () => {
 					<Box color="#7140b3" fontSize={18} fontWeight="fontWeightBold">
 						Heroku
 					</Box>
-				</Button>
+				</Button>{" "}
 			</Box>
 		</Box>
 	);
